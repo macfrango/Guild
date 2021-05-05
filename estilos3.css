@@ -1,0 +1,145 @@
+body {
+    background-color: black;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.titulo{
+    color: white;
+    max-width: 1500px;
+    margin: auto;
+    text-align: center;
+    height: 10vh;
+
+}
+.resumen{
+    max-width: 1500px;
+    margin: auto;
+}
+header{
+    width: 100%;
+    height: 35vh;
+}
+header nav {
+    padding: 10px 20px;
+    width: 100%;
+    height: 300px;
+    background-image: url("wow.jpg");
+    background-size: 100%;
+    
+}
+
+header nav a {
+    display: block;
+    float: right;
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+header nav .logo {
+    float: left;
+    font-size: 2em;
+    background-color: transparent;
+}
+header nav a:hover{
+    background-color: orangered;
+}
+.dropdown {
+    float: right;
+}
+.dropdown .dropdown_btn {
+    outline: none;
+    border: none;
+    background: inherit;
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+.dropdown .dropdown_btn:not(:only-child)::after{
+    content: " ▼";
+}
+.dropdown .dropdown_content {
+    display: none;
+    background-color: orangered;
+    min-width: 140px;
+    position: absolute;
+}
+.dropdown .dropdown_content a {
+    float: none;
+    color: white;
+}
+.dropdown:hover .dropdown_content {
+    display: block;
+}
+.dropdown:hover .dropdown_content a:hover{
+    background: inherit;
+    color: burlywood;
+}
+
+
+.cartelera {
+    max-width: 1500px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+
+.resumen{
+    color: white;
+}
+.sujerencia {
+    max-width: 1500px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    
+}
+
+.staff {
+    max-width: 1500px;
+    margin: auto;
+    align-content: center;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1em;
+    height: 10vh;
+}
+
+
+.datos{
+    
+    background-color:orangered;
+    color: white;
+    text-align: center;
+}
+.copirng{
+    text-align: center;
+    background-color: white;
+    height: 5vh;
+}
+.video{
+
+    padding: 50px;
+    height: 60vh;
+}
+.descarga{
+    max-width: 1500px;
+    margin: auto;
+    text-align: center;
+    height: 70vh;
+}
+img{
+
+    width: 700px;
+    
+}
