@@ -30,7 +30,8 @@ header nav {
     height: 300px;
     background-image: url("wow.jpg") ;
     background-size: 100%;
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat;
+    
 }
 
 header nav a {
@@ -137,6 +138,6 @@ header nav a:hover{
 
 img{
 
-    width: 50%;
+    width: 70%;
     
 }
