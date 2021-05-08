@@ -28,9 +28,9 @@ header nav {
     padding: 10px 20px;
     width: 100%;
     height: 300px;
-    background-image: url("wow.jpg");
+    background-image: url("wow.jpg") ;
     background-size: 100%;
-    
+    background-repeat: no-repeat;   
 }
 
 header nav a {
